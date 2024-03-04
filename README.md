@@ -5,10 +5,10 @@ Assessment 2: Pomodoro Timer <br/>
 
 ### Installation and Execution
 
-`git clone https://github.com/bitakshat/mtechzilla-assessment.git`
-`cd mtechzilla-assessment`
-`npm install`
-`npm start`
+`git clone https://github.com/bitakshat/mtechzilla-assessment.git`<br />
+`cd mtechzilla-assessment`<br />
+`npm install`<br />
+`npm start`<br />
 
 ### Netlify Link
 
