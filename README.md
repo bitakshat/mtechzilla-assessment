@@ -10,8 +10,6 @@ Assessment 2: Pomodoro Timer <br/>
 `npm install`<br />
 `npm start`<br />
 
-### Netlify Link
+### [Netlify Link](https://mtechzillatest.netlify.app/)
 
-[Netlify](https://mtechzillatest.netlify.app/)
-
-> Note: Pomodoro Timer Username: `test@abc.com` Password: `123@abc`
+> Pomodoro Timer Username: `test@abc.com` Password: `123@abc`
