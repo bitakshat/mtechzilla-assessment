@@ -1,9 +1,10 @@
 import AppCard from "./components/AppCard/AppCard"
 import { FaGithub } from "react-icons/fa"
 import { PiTimerBold } from "react-icons/pi"
+import backgroundImage from './images/background-image.jpg'
 
 export const App = () => (
-  <div className="App w-full h-screen bg-gradient-to-r font-poppins text-white" style={{ backgroundImage: 'url("https://source.unsplash.com/purple-and-pink-lights-X8o-P23flgI")' }}>
+  <div className="App w-full h-screen bg-gradient-to-r font-poppins text-white" style={{ backgroundImage: `url(${backgroundImage})`, objectFit: "contain", backgroundPosition: "center center" }}>
     <div className="w-full h-full flex justify-center items-center flex-col gap-10">
       <h1 className="text-center text-4xl bg-gradient-to-r from-blue-100 to-green-100 inline-block text-transparent bg-clip-text tracking-widest">MTechZilla Assessment</h1>
 

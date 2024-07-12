@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-
+import backgroundImage from '../../images/background-image.jpg'
 
 const UserInfo = () => {
     const location = useLocation();
@@ -13,7 +13,7 @@ const UserInfo = () => {
     if (!inputData) return null
 
     return (
-        <div className="w-full h-screen flex justify-center items-center flex-col gap-10" style={{ backgroundImage: 'url("https://source.unsplash.com/purple-and-pink-lights-X8o-P23flgI")' }}>
+        <div className="w-full h-screen flex justify-center items-center flex-col gap-10" style={{ backgroundImage: `url(${backgroundImage})` }}>
             <h1 className="text-4xl text-white underline">Github User UI</h1>
             <div className="w-1/4 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-white rounded-2xl">
                 <div className="shadow-xl rounded-lg py-3">

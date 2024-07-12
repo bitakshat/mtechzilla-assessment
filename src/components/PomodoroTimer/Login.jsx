@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { auth } from "../../firebase";
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut } from 'firebase/auth';
+import backgroundImage from '../../images/background-image.jpg'
 
 const Login = () => {
 
@@ -27,7 +28,7 @@ const Login = () => {
     }
 
     return (
-        <div className="w-full h-screen flex justify-center items-center bg-gradient-to-br" style={{ backgroundImage: 'url("https://source.unsplash.com/purple-and-pink-lights-X8o-P23flgI")' }}>
+        <div className="w-full h-screen flex justify-center items-center bg-gradient-to-br" style={{ backgroundImage: `url(${backgroundImage})` }}>
             <div className="relative flex flex-col justify-center min-h-screen overflow-hidden w-1/2 ">
                 <div className="w-full p-6 m-auto bg-white text-white shadow-md lg:max-w-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 rounded-2xl">
                     <h1 className="text-3xl font-semibold text-center underline">Your Pomodoro Timer</h1>

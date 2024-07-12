@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import {
     signOut,
 } from "firebase/auth";
+import backgroundImage from '../../images/background-image.jpg'
 
 const Timer = () => {
     const [seconds, setSeconds] = useState(0);
@@ -54,7 +55,7 @@ const Timer = () => {
     };
 
     return (
-        <div className='w-full h-screen flex justify-center items-center flex-col gap-10' style={{ backgroundImage: 'url("https://source.unsplash.com/purple-and-pink-lights-X8o-P23flgI")' }}>
+        <div className='w-full h-screen flex justify-center items-center flex-col gap-10' style={{ backgroundImage: `url(${backgroundImage})` }}>
             <h1 className='text-white text-4xl underline tracking-widest'>Pomodoro Timer</h1>
             <div className="flex flex-col justify-center items-center w-2/6  rounded-xl p-10 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-white text-white">
                 <h1 className='text-4xl m-4 font-semibold text-center'>{displayMessage}</h1>
